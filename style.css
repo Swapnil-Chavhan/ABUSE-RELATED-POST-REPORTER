@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-position: center
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex:1;
+    text-align: right;
+}
+nav ul
+{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px; 
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+nav ul li :no-button
+{
+    font-size: 40px;
+    color: antiquewhite;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.SearchBox{
+    position: absolute;
+    display: flex;
+    top: 80%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50% ,-50%);
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+.SearchText{
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+.SearchText:focus{
+    outline: none;
+    ;
+}
+.SearchBtn{
+    width:4rem;
+    height: 4rem;
+    background-color:rgb(18, 207, 207);
+    color:#fff;
+    position: absolute;
+    right: 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+
+}
+.SearchBox:hover > .SearchText{
+    width: 30rem;
+    padding: 2rem;
+    box-shadow: 0 2rem -1.5rem rgba(0,0,0,-1.5rem);
+}
+.SearchBox:hover > .SearchBtn{
+    background: #fff;
+    color: rgb(134, 65, 225);
+}
+
+.Welcome-Text{
+    position: absolute;
+    display: flex;
+    width: px;
+    height: px;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50% ,-50%);
+
+}
+.Welcome-Text h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(179, 101, 29);
+    font-size: 60px;
+
+}
+.navbar a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 17.5px;
+    margin-top: 20px;
+    display: inline-block;
+    border-block-color:pink;
+    
+}
+.navbar a:hover{
+    background: rgb(30, 236, 150);
+    color:#fff;
+}
+.image{
+    position: absolute;
+    display: flex;
+    top: 60%;
+    left: 87%;
+    justify-content:left;
+    align-items: left;
+    transform: translate(-50% ,-50%);
+}
